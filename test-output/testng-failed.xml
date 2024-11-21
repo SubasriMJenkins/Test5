@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.karkakasadara.tests.previouselog.DirectorAcademics">
+      <class name="org.karkakasadara.tests.previouselog.Cscoordinator">
         <methods>
           <include name="selectFields"/>
           <include name="setUpDriver"/>
+          <include name="clickViewHomework"/>
         </methods>
-      </class> <!-- org.karkakasadara.tests.previouselog.DirectorAcademics -->
+      </class> <!-- org.karkakasadara.tests.previouselog.Cscoordinator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
